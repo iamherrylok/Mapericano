@@ -1,0 +1,6 @@
+@Mapericano_HostAddress = http://localhost:5095
+
+GET {{Mapericano_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
