@@ -19,7 +19,7 @@ jobs:
           npm run build
 
       - name: Deploy to FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.2.1
+        uses: SamKirkland/FTP-Deploy-Action@4.3.5
         with:
           local-dir: ./build
           server: ${{ secrets.FTP_SERVER }}
